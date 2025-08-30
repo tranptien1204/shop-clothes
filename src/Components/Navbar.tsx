@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
 import { assets } from '../assets/assets'
-import { useState } from 'react'
 
 const Navbar = ({ setShowSearch, showSearch }: SearchBarProps) => {
 
@@ -40,7 +39,7 @@ const Navbar = ({ setShowSearch, showSearch }: SearchBarProps) => {
                             onClick={() => setShowSearch(!showSearch)}
                         />
                     </Link>
-                    <Link to={"/login"} className=' group relative'>
+                    <Link to={"/login"} className='relative'>
                         <img src={assets.profile_icon} className='w-5 cursor-pointer' alt="" />
                     </Link>
 
@@ -52,22 +51,7 @@ const Navbar = ({ setShowSearch, showSearch }: SearchBarProps) => {
                     </Link>
 
                     <img src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" />
-
                 </div>
-
-                {/* <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all`}>
-
-                    <div className='flex flex-col text-gray-500'>
-                        <div className="flex item-center gap-4 p-3 cursor-pointer">
-                            <img src={assets.dropdown_icon} className='h-4 rotate-180' alt="" />
-                            <p>back</p>
-                        </div>
-                        <NavLink className="py-2 pl-6 border res " to="/">HOME</NavLink>
-                        <NavLink className="py-2 pl-6 border res" to="/collection">COLLECTION</NavLink>
-                        <NavLink className="py-2 pl-6 border res" to="/about">ABOUT</NavLink>
-                        <NavLink className="py-2 pl-6 border res" to="/contact">CONTACT</NavLink>
-                    </div>
-                </div> */}
             </div>
         </>
     )

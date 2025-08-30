@@ -1,38 +1,10 @@
 // import React, { useContext, useEffect, useState } from 'react';
-// import { ShopContext } from '../Context/ShopContext';
 // import Title from '../Components/Title';
 // import { assets } from '../assets/assets';
 // import CartTotal from '../Components/CartTotal';
 
 // const Cart = () => {
-//     const { products, currency, cartItems, updateQuantity, navigate } = useContext(ShopContext);
-//     const [cartData, setCartData] = useState([]);
 
-//     useEffect(() => {
-//         const tempData = [];
-//         for (const items in cartItems) {
-//             for (const item in cartItems[items]) {
-//                 if (cartItems[items][item] > 0) {
-//                     tempData.push({
-//                         _id: items,
-//                         size: item,
-//                         quantity: cartItems[items][item]
-//                     });
-//                 }
-//             }
-//         }
-//         setCartData(tempData);
-//     }, [cartItems]);
-
-//     const handleIncrement = (item) => {
-//         updateQuantity(item._id, item.size, item.quantity + 1);
-//     };
-
-//     const handleDecrement = (item) => {
-//         if (item.quantity > 1) {
-//             updateQuantity(item._id, item.size, item.quantity - 1);
-//         }
-//     };
 
 //     return (
 //         <div className='border-t pt-14'>
@@ -63,7 +35,7 @@
 //                                     <input
 //                                         type="number"
 //                                         className="border max-w-10 sm:max-w-20 px-1 sm:px-2 py-1 text-center"
-//                                         value={item.quantity}
+//                                         // value={item.quantity}
 //                                         readOnly
 //                                     />
 //                                     <button className='px-3 py-1' onClick={() => handleIncrement(item)}>+</button>

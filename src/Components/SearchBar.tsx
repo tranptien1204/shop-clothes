@@ -3,7 +3,6 @@ import { assets } from '../assets/assets';
 
 const SearchBar = ({ showSearch, setShowSearch }: SearchBarProps) => {
 
-
     return showSearch && (
         <div className='border-t border-b bg-gray-50 text-center'>
             <div className="inline-flex items-center justify-center border border-gray-400 px-5
