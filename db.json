@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "_id": "aaabz",
+      "name": "Men Slim Fit Relaxed Denim Jacket",
+      "description": "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "price": 350,
+      "image": [
+        "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img39.png",
+        "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img47.png"
+      ],
+      "category": "Men",
+      "subCategory": "Winterwear",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "date": 1716668445448,
+      "bestseller": false,
+      "id": "862a"
+    },
+    {
+      "_id": "aaaba",
+      "name": "Men Slim Fit Relaxed Denim Jacket",
+      "description": "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "price": 330,
+      "image": "https://raw.githubusercontent.com/avinashdm/gs-images/main/forever/p_img39.png",
+      "category": "Men",
+      "subCategory": "Winterwear",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "date": 1716668445448,
+      "bestseller": true,
+      "id": "7bd0"
+    }
+  ],
+  "users": [
+    {
+      "id": "1117",
+      "name": "tientran",
+      "email": "tientran@gmail.com",
+      "password": "123"
+    }
+  ]
+}
